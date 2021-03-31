@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test:ui": "npx cypress open",
+    "test:all": "npx cypress run --spec **/*.spec.js"
+  },
+  "dependencies": {
+    "cypress": "^6.6.0"
+  }
+}
